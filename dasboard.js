@@ -16,16 +16,16 @@ darkMode.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode-variables');
     darkMode.querySelector('span:nth-child(1)').classList.toggle('active');
     darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
-})
+});
 
 
 Orders.forEach(order => {
     const tr = document.createElement('tr');
     const trContent = `
         <td>${order.productCategory}</td>
-        <td>${order.productID}</td>
+        <td>${order.productName}</td>
         <td>${order.productPrice}</td>
-        <td>${order.productPrice}</td>
+        <td>${order.productDescription}</td>
     `;
     tr.innerHTML = trContent;
     document.querySelector('table tbody').appendChild(tr);
