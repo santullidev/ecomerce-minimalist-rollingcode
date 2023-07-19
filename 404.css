@@ -38,6 +38,7 @@ body {
     width: 300px;
     height: auto;
     padding-bottom:10px;
+    cursor: pointer;
 }
 
 .btn-container-404 {

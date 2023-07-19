@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Arial, sans-serif;
     background-color: #a7a7a7;
     display: flex;
     align-items: center;
