@@ -5,7 +5,7 @@ body {
     height: auto;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: gray;
+    background-color: #961818;
 }
 
 .container-404 {
@@ -18,26 +18,28 @@ body {
     height: 570px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ececec;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44);
 }
 
 .container-404 h1 {
     font-size: 48px;
-    color: #e74c3c;
+    color: #961818;
     margin-bottom: 10px;
+    font-weight: 400px;
+    
 }
 
 .container-404 p {
     font-size: 20px;
-    color: #333;
-    margin-bottom: 30px;
+    color: black;
+    margin-bottom: 7px;
 }
 .img-contenedor img {
     width: 300px;
     height: auto;
-    padding-bottom:10px;
     cursor: pointer;
 }
 
@@ -57,6 +59,7 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44);
 }
 
 .btn:hover {
@@ -70,7 +73,7 @@ body {
 @media screen and (max-width: 750px){
     .container-404 {
         width: 450px;
-        height: 350px;
+        height: 360px;
     }
     .container-404 h1 {
         font-size: 20px;
@@ -79,12 +82,11 @@ body {
     
     .container-404 p {
         font-size: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
     .img-contenedor img {
         width: 200px;
         height: auto;
-        padding-bottom:10px;
     }
     .btn {
         padding: 10px 20px;
@@ -104,12 +106,11 @@ body {
     
     .container-404 p {
         font-size: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
     .img-contenedor img {
         width: 100px;
         height: auto;
-        padding-bottom:10px;
     }
     .btn {
         padding: 10px 20px;
