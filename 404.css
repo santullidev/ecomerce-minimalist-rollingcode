@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+body {
+    height: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+
+.container-404 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-404 h1 {
+    font-size: 48px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.container-404 p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.img-contenedor img {
+    width: 300px;
+    height: auto;
+    padding-bottom:10px;
+}
+
+.btn-container-404 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+#btn404{
+    position: absolute;
+
+}
+
+@media screen and (max-width: 750px){
+    .container-404 {
+        width: 450px;
+        height: 300px;
+    }
+    .container-404 h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .container-404 p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .img-contenedor img {
+        width: 200px;
+        height: auto;
+        padding-bottom:10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-404 {
+        padding: 5px;
+        width: 300px;
+        height: 250px;
+    }
+    .container-404 h1 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .container-404 p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .img-contenedor img {
+        width: 100px;
+        height: auto;
+        padding-bottom:10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-404 {
+        padding: 5px;
+        width: 250px;
+        height: 300px;
+    }
+
+}
