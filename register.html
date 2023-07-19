@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="aqui va el favicon" type="image/x-icon">
+    <link rel="stylesheet" href="register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>register</title>
+</head>
+<body>
+
+    <div class="container-form registro ">
+        <div class="information">
+            <div class="welcome">
+                <h2>Bienvenido!</h2>
+                <p>si ya tienes una cuenta en ------ y quieres inicar sesion, haz click en el boton.</p>
+                <input type="button" value="iniciar sesion" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-register">
+                <h2>Crear una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google bx-flashing' ></i>
+                    <i class='bx bxl-github bx-flashing' ></i>
+                    <i class='bx bxl-linkedin bx-flashing' ></i>
+                </div>
+                <p>USAR EMAIL PARA REGISTRARTE</p>
+                <!--formulario de register-->
+                <form class="form" id="form-register">
+                    <label >
+                        <i class='bx bx-user-circle' ></i>
+                        <input type="text" name="user" placeholder=" Nombre de Usuario" maxlength="30" id="username-r">
+                    </label>
+                    <label >
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" name="email" placeholder="Correo Electronico" maxlength="256" autocomplete="email" id="email-r">
+                    </label>
+                    <label >
+                        <i class='bx bx-lock' ></i>
+                        <input type="password" name="contraseña" placeholder="Contraseña" minlength="8" maxlength="16" id="password-r">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-form login hide" >
+        <div class="information">
+            <div class="welcome">
+                <h2>Bienvenido de Nuevo!</h2>
+                <p>si aun no tienees una cuenta,     haz click en el boton.</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-register">
+                <h2>INICIAR SESION</h2>
+                <div class="icons">
+                    <i class='bx bxl-google bx-flashing' ></i>
+                    <i class='bx bxl-github bx-flashing' ></i>
+                    <i class='bx bxl-linkedin bx-flashing' ></i>
+                </div>
+                <p>INICIA SESION CON EMAIL</p>
+                <!--formulario de login -->
+
+                <form class="form" id="form-login">
+                    <label >
+                        <i class='bx bx-user-circle' ></i>
+                        <input type="text" name="user" placeholder="Nombre de Usuario" maxlength="30" id="username-l">
+                    </label>
+                    <label >
+                        <i class='bx bx-lock' ></i>
+                        <input type="password" name="contraseña" placeholder="Contraseña" minlength="8" maxlength="16" autocomplete="email" id="password-l">
+                    </label>
+                    <input type="submit" value="Iniciar Sesion">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body> 
+</html>
