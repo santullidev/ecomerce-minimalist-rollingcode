@@ -91,14 +91,14 @@ body{
     padding: 15px;
     cursor: pointer;
     margin: 0 10px;
-    color: black;
-    background-color: #ececec;
+    color: #ececec;
+    background-color: black;
     transition: backgraund-color 0.3s ease;
     border:solid thin black;
 }
 .icons i:hover{
-    background-color: black;
-    color: #ececec;
+    background-color: #ececec;
+    color: black;
 }
 
 .form{
