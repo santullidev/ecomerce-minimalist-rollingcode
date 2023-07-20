@@ -1,13 +1,8 @@
 :root {
-    --clr-main: #4b33a8;
-    --clr-main-light: #785ce9;
     --clr-white: #ececec;
     --clr-gray: #d6d3d3;
-    --clr-red: #961818;
-
-    --clr-primary: #6C98CF;
-    --clr-primary-text: #335a8a;
-    
+    --clr-primary: #9abbe3;
+    --clr-primary-text: #335a8a;   
 }
 *{
     margin: 0;
@@ -25,10 +20,30 @@ ul{
 a{
     text-decoration: none;
 }
+.contenedor-carousel{
+  background-color: var(--clr-white);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;  
+ }
+hr {
+    background-color: transparent;
+    color: transparent;
+}
+.carousel-inner{
+    height: 50vh;
+    border-radius: 3rem;
+}
+
+
 .contenedor-principal{
+    padding-top: .5rem;
+    padding-right: .5rem;
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: var(--clr-primary);
+    margin-bottom: 4rem;
 }
 aside{
     background-color: var(--clr-primary);
@@ -56,6 +71,7 @@ main{
 .titulo-principal{
     color: var(--clr-primary-text);
     margin-bottom: 2rem;
+    width: 15rem;
 }
 .contenedor-productos{
     display: grid;
@@ -123,7 +139,7 @@ main{
     border-radius: .25rem;
 }
 .producto {
-    height: 450px;
+    height: 28.1rem;
     position: relative;
 }
 .producto img{
@@ -133,9 +149,9 @@ main{
     border-style:border-box;   
 }
 .box-producto{
-    width: 300px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2) ;
-    border-radius: 10px;
+    width: 18.75rem;
+    box-shadow: .1rem .1rem 1.87rem rgba(0, 0, 0, 0.2) ;
+    border-radius: 0.6rem;
     overflow: hidden;
     margin: 10px;
 }
@@ -144,7 +160,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0.6rem 1.25rem;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 
@@ -156,10 +172,10 @@ main{
 }
 .detalle a {
     color: #222222;
-    margin: 5px 0px;
+    margin: .3rem 0rem;
     font-weight: 700;
-    letter-spacing: 0.5px;
-    padding-right: 8px;
+    letter-spacing: .03rem;
+    padding-right: .5rem;
 }
 .detalle span{
     color: rgba(26, 26,26, 0.5);
@@ -169,7 +185,7 @@ main{
     font-weight: 600;
     font-size: 1.1rem;
     font-family: 'Rubik', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: .03rem;
 }
 .overlay{
     position: absolute;
@@ -184,18 +200,18 @@ main{
     align-items: center;
 }
 .btn-comprar{
-    width: 160px;
-    height: 40px;
+    width: 10rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
     color: #252525;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: .06rem;
     font-family: 'Rubik', sans-serif;
-    border-radius: 20px;
-    box-shadow: 2px 2px 30px rgba(0,0,2,0.2);
+    border-radius: 1.25rem;
+    box-shadow: .12rem .12rem 1.87rem rgba(0,0,2,0.2);
 }
 .btn-comprar:hover{
     color: #FFFFFF;
@@ -291,4 +307,10 @@ main{
 }
 .disabled{
     display: none;
+}
+.close-menu{
+    display: none;
+}
+.header-mobile {
+   display: none; 
 }
