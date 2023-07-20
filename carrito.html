@@ -12,7 +12,15 @@
 <body>
 
     <div class="contenedor-principal">
+        <header class="header-mobile">
+            <h1 class="logo">E-Shop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>        
         <aside>
+            <button class="close-menu" id="close-menu"><i class="bi bi-x"></i>
+            </button>
             <header>
                 <h1 class="logo">E-shop</h1>
             </header>
@@ -63,9 +71,11 @@
         </div>
         </main>
     </div>
-    
+    <!-- Includes de Java Script --> 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/carrito.js"></script>
+
 </body>
 </html>
