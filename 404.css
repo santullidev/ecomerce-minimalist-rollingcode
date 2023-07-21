@@ -1,13 +1,16 @@
 *{
     margin: 0;
-}
-body {
-    height: auto;
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #961818;
 }
 
+/*comienza ebody*/
+main {
+    height: 100vh;
+    text-align: center;
+    background-color: #961818;
+    display: flex;
+    align-items: center;
+}
 .container-404 {
     padding: 10px;
     display: flex;
@@ -69,6 +72,8 @@ body {
     position: absolute;
 
 }
+
+
 
 @media screen and (max-width: 750px){
     .container-404 {
