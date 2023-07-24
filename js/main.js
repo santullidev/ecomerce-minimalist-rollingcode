@@ -4,9 +4,6 @@ const tituloPrincipal= document.querySelector("#titulo-principal");
 let botonesComprar = document.querySelectorAll(".btn-comprar");
 const cantidadItems = document.querySelector("#cantidad-items");
 
-
-
-
 function cargarProductos(productosElegidos){
    contenedorProductos.innerHTML= ""; // primero limpiamos el contenedor antes de cargarlo
    
