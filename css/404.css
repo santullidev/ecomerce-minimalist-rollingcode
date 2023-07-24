@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*comienza ebody*/
+main {
+    height: 100vh;
+    text-align: center;
+    background-color: #961818;
+    display: flex;
+    align-items: center;
+}
+.container-404 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 570px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44);
+}
+
+.container-404 h1 {
+    font-size: 48px;
+    color: #961818;
+    margin-bottom: 10px;
+    font-weight: 400px;
+    
+}
+
+.container-404 p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 7px;
+}
+.img-contenedor img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-container-404 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44);
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+#btn404{
+    position: absolute;
+
+}
+
+
+
+@media screen and (max-width: 750px){
+    .container-404 {
+        width: 450px;
+        height: 360px;
+    }
+    .container-404 h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .container-404 p {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .img-contenedor img {
+        width: 200px;
+        height: auto;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-404 {
+        padding: 5px;
+        width: 300px;
+        height: 250px;
+    }
+    .container-404 h1 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .container-404 p {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+    .img-contenedor img {
+        width: 100px;
+        height: auto;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-404 {
+        padding: 5px;
+        width: 250px;
+        height: 300px;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+}
