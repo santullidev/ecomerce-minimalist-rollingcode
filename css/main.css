@@ -49,6 +49,23 @@ hr {
     background-color: var(--clr-primary);
     margin-bottom: 4rem;
 }
+.nav-bar {
+    /* background-color: #333; */
+    background-color:var(--clr-primary);
+    color:var(var(--clr-primary-text));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu-footer{
+    background-color:var(--clr-primary);
+    color:var(var(--clr-primary-text));
+}
+.cantidad-items span{
+    color:var(var(--clr-primary-text));
+}
+
 aside{
     background-color: var(--clr-primary);
     padding: 2rem;
@@ -138,7 +155,7 @@ main{
 }
 .cantidad-items{
     background-color: var(--clr-white);
-    color: var(--clr-main);
+    color: var(--clr-primary-text);
     padding: .15rem .25rem ;
     border-radius: .25rem;
 }
