@@ -6,4 +6,4 @@ btn404.addEventListener('mouseover', function () {
     btn404.style.setProperty('top', randomY+'%');
     btn404.style.setProperty('left', randomX+'%');
     btn404.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
-})
+})  
