@@ -2,17 +2,25 @@
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+.nav-404{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    max-width: 83px;
+}
 /*comienza ebody*/
 main {
-    height: 100vh;
+    height: 70vh;
     text-align: center;
     background-color: #961818;
     display: flex;
     align-items: center;
 }
 .container-404 {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,12 +31,11 @@ main {
     padding: 20px;
     background-color: #ececec;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44); -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.44);
 }
 
 .container-404 h1 {
-    font-size: 48px;
+    font-size: 20px;
     color: #961818;
     margin-bottom: 10px;
     font-weight: 400px;
@@ -36,7 +43,7 @@ main {
 }
 
 .container-404 p {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     margin-bottom: 7px;
 }
@@ -78,10 +85,10 @@ main {
 @media screen and (max-width: 750px){
     .container-404 {
         width: 450px;
-        height: 360px;
+        height: 450px;
     }
     .container-404 h1 {
-        font-size: 20px;
+        font-size: 17px;
         margin-bottom: 5px;
     }
     
@@ -98,19 +105,22 @@ main {
         font-size: 15px;
     }
 }
+@media screen and (max-width: 750px){
+
+}
 @media screen and (max-width: 500px){
     .container-404 {
         padding: 5px;
-        width: 300px;
-        height: 250px;
+        width: 340px;
+        height: 300px;
     }
     .container-404 h1 {
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 5px;
     }
     
     .container-404 p {
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 7px;
     }
     .img-contenedor img {
@@ -122,11 +132,11 @@ main {
         font-size: 10px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 360px){
     .container-404 {
         padding: 5px;
         width: 250px;
-        height: 300px;
+        height: 330px;
     }
     .btn {
         padding: 10px 20px;
