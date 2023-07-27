@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 15vh;
+    
+}
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logo-footer img {
+    max-width: 70px;
+    margin-bottom: 4px;
+    display: block; 
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 11px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li i{
+    font-size: 30px;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 2.5px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+}
+@media screen and (max-width: 800px){
+    footer{
+        font-size: 16px;
+    }
+    .footer-section{
+        margin-bottom: 5px;
+    }
+    .container-sn{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer-bottom{
+        padding: 7px;
+    }
+}
+@media screen and (max-width: 690px){
+    footer{
+        font-size: 12px;
+    }
+    .footer-section .telefono{
+        font-size: 11px;
+    }
+    .footer-section li a{
+        font-size:10px;
+    }
+    
+}
+
+@media screen and (max-width: 620px){
+    footer{
+        font-size: 12px;
+        height: auto;
+    }
+    .footer-content{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 375px){
+        footer{
+            font-size: 12px;
+        height: auto;
+        }
+    .footer{
+        height: auto;
+        }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        }
+    }

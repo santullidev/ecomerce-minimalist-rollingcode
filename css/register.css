@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 /* comienza el nav-bar */
-nav {
+.nav-register{
     background-color: #333;
     color: #fff;
     display: flex;
@@ -20,15 +20,13 @@ nav {
     max-width: 83px;
 }
 /* comienza el formulario */
-
 main{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:#6C98CF ;
-    height: 72vh;
+    height: 73.5vh;
 }
-
 .container-form{
     display: flex;
     border-radius: 15px;
@@ -49,7 +47,6 @@ main{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 } 
-
 .welcome{
     width: 100%;
     padding: 0 30px;
@@ -120,7 +117,6 @@ main{
     background-color: #ececec;
     color: black;
 }
-
 .form{
     margin: 10px 0 0 0;
     width: 300px;
@@ -146,7 +142,6 @@ main{
 .form label i{
     color: #333;
 }
-
 .form input[type="submit"]{
 background-color: black;
 color: #ececec;
@@ -166,92 +161,6 @@ cursor: pointer;
 .hide{
     display: none;
 }
-
-/* footer*/ 
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding-top: 20px;
-    
-}
-.logo-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    width: 100%;
-    height: 100%;
-    
-}
-
-.logo-footer img {
-    max-width: 70px;
-    margin-bottom: 4px;
-    display: block; 
-}
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-section {
-    flex: 1;
-    max-width: 300px;
-    margin-bottom: 20px;
-}
-
-.footer-section h3 {
-    margin-bottom: 11px;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.footer-section ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.social-links {
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-.social-links li {
-    margin-right: 10px;
-}
-
-.social-links li i{
-    font-size: 30px;
-}
-
-.footer-bottom {
-    background-color: #222;
-    text-align: center;
-    padding: 2.5px;
-}
-
-.footer-bottom p {
-    font-size: 12px;
-    margin: 0;
-}
-
-
 @media screen and (max-width: 780px){
     html{
         font-size: 15px;
@@ -264,14 +173,12 @@ footer {
         font-size: 30px;
         color: #333;
     }
-
     .information{
     width: 40%;
     }
     .form-information{
         width: 60%;
     }
-    
         div.information{
             padding: 5px 0px;
         }
@@ -302,15 +209,6 @@ footer {
     }
     .welcome p{
         margin: 6px 0;
-     }
-    footer{
-        font-size: 12px;
-    }
-    .footer-section .telefono{
-        font-size: 11px;
-    }
-    .footer-section li a{
-        font-size:10px;
     }
 }
 
@@ -367,24 +265,15 @@ footer {
         padding: 12px;
         margin: 0 7px;
     }
-    .footer-content{
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
 }
 @media screen and (max-width: 375px){
     html{
         font-size: 12px;
         height: auto;
         }
-     .container-form{
+    .container-form{
         width: 300px;
         }
-
     .welcome img{
         width: 75px;
         padding-top: 10px;
@@ -396,7 +285,6 @@ footer {
         .welcome h2{
             font-size: 20px;
         }
-         
         .form{
             width: auto;
             }
@@ -428,12 +316,5 @@ footer {
     .icons i{
         margin: 1px;
         padding: 10px;
-        }
-    .footer{
-        height: auto;
-        }
-    .footer-content{
-        flex-direction: column;
-        align-items: center;
         }
     }
