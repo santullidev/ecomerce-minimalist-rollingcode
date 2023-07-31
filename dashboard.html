@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style_dashboard.css">
-    <title></title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sobrenosotros.css">
+    <title>Administracion</title>
 </head>
 
 <body>
@@ -16,8 +19,8 @@
         <aside>
             <div class="toggle">
                 <div class="logo">
-                    <img src="images/dashboard/logo.png">
-                    <h2>Fer<span class="danger">Santilli</span></h2>
+                    <img src="images/logo.png">
+                    <h2>Asmr<span class="danger">Prog</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -55,7 +58,7 @@
                     <span class="material-icons-sharp">
                         mail_outline
                     </span>
-                    <h3>Tickets</h3>
+                    <h3>Emails</h3>
                     <span class="message-count">27</span>
                 </a>
                 <a href="#">
@@ -77,7 +80,7 @@
                     <h3>Config.</h3>
                 </a>
 
-                <a href="#">
+                <a href="index.html">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -89,7 +92,7 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Analyticas</h1>
+            <h1>Metricas</h1>
             <!-- Analyses -->
             <div class="analyse">
                 <div class="sales">
@@ -171,46 +174,59 @@
             </div>
             <!-- End of New Users Section -->
 
-            <!-- Recent Orders Table -->
+            <!-- Start of Inventory Section -->
             <div class="recent-orders">
                 <h2>Inventario</h2>
+
+                <!-- Start of Order Form Section -->
+                <div class="order-inventory">  
+                    <div class="order-form">
+                        <h2>Agregar Producto</h2>
+                        <form id="product-form">
+                            <div class="form-group">
+                                <label for="product-title">Título:</label>
+                                <input type="text" id="product-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-category">Categoría:</label>
+                                <input type="text" id="product-category" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-category-id">ID:</label>
+                                <input type="text" id="product-category-id" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-price">Precio:</label>
+                                <input type="text" id="product-price" required>
+                            </div>
+                            <button type="submit" class="oder-button">Agregar Producto</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- End of Order Form Section -->
+                    
+                
                 <table>
                     <thead>
                         <tr>
-                            <th>Categoria</th>
-                            <th>Nombre</th>
+                            <th>Título</th>
+                            <th>Categoría</th>
                             <th>ID</th>
                             <th>Precio</th>
-                            <th>Desripcion</th>
-                            <th></th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+                     <!-- Renderizar filas con información de productos -->
+                    </tbody>
                 </table>
-                <a href="#">Mostar más..</a>
             </div>
-            <!-- End of Recent Orders -->
-
-        </main>
+            </main>
         <!-- End of Main Content -->
 
         <!-- Right Section -->
         <div class="right-section">
             <div class="nav">
-                <button id="menu-btn">
-                    <span class="material-icons-sharp">
-                        menu
-                    </span>
-                </button>
-                <div class="dark-mode">
-                    <span class="material-icons-sharp active">
-                        light_mode
-                    </span>
-                    <span class="material-icons-sharp">
-                        dark_mode
-                    </span>
-                </div>
-
                 <div class="profile">
                     <div class="info">
                         <p>Hola, <b>Fernando</b></p>
@@ -230,15 +246,67 @@
                     <h2>Administrador</h2>
                     <p>Nombre del cargo del admin.</p>
                 </div>
+            </div>  
+      </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+            <div class="logo-footer">
+                <img src="img/LOGO-SIN-LETRA.png" alt="Logo ICONIK">
+            </div>
+            </div>
+            <div class="footer-section">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="sobrenosotros.html">Acerca de ICONIK</a></li>
+                    <li><a href="404.html">Sucursales</a></li>
+                    <li><a href="404.html">Contacto</a></li>
+                    <li><a href="404.html">Terminos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="404.html">Medios de Pago</a></li>
+                    <li><a href="404.html">Preguntas Frecuentes</a></li>
+                    <li><a href="404.html">Como comprar</a></li>
+                    <li><a href="404.html">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li class="telefono"> Telefono: <a href="404.html">3804010</a></li>
+                    <li><a href="404.html">Soporte en línea</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="404.html"><i class='bx bxl-facebook-square'></i></a></li>
+                    <li><a href="404.html"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="404.html"><i class='bx bxl-instagram' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Todos los derechos reservados &copy; 2023 | Venta de Indumentaria</p>
+        </div>
+    </footer>
+    
+    <div class="right-section">
+        <div class="nav">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">
+                    menu
+                </span>
+            </button>
             </div>
 
-  
 
-
-    </div>
-
-    <script src="inventory.js"></script>
-    <script src="dasboard.js"></script>
+    <script src="./JS/metadata.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 
 </html>
