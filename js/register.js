@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // verificacion de los valores
       if (usuarioObjeto && usuarioIngresado === usuarioObjeto.usernamer && contraseñaIngresada === usuarioObjeto.passwordr) {
         alert('Inicio de sesión exitoso!');
-        window.location.href = 'pagina-principal.html';
+        window.location.href = 'index.html';
       }
       // Verificamos si los valores del admin
       else if (adminObjeto && usuarioIngresado === adminObjeto.usuario && contraseñaIngresada === adminObjeto.contraseña) {
