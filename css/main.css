@@ -39,8 +39,6 @@ hr {
     height: 50vh;
     border-radius: 3rem;
 }
-
-
 .contenedor-principal{
     padding-top: .5rem;
     padding-right: .5rem;
@@ -89,6 +87,7 @@ main{
 .contenedor-productos{
     display: grid;
     grid-template-columns:repeat(4, 1fr) ;
+    gap: 1rem;
 }
 .menu{
     display:flex;
@@ -153,17 +152,14 @@ aside .cantidad-items{
     border-radius: .25rem;
 }
 .producto {
-    height: 28.1rem;
-    position: relative;
+  position: relative;
 }
 .producto img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-style:border-box;   
 }
 .box-producto{
-    width: 18.75rem;
     box-shadow: .1rem .1rem 1.87rem rgba(0, 0, 0, 0.2) ;
     border-radius: 0.6rem;
     overflow: hidden;
@@ -331,9 +327,18 @@ aside .cantidad-items{
 
 
 /**************************Media queries**********************************/
-@media screen and (max-width: 850px) {
+
+@media screen and (max-width: 1461px) {
+    .carousel-inner{
+        height: 25vh;
+    }
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+@media screen and (max-width: 850px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr ;
     } 
     .main {
       margin: 0;
@@ -346,6 +351,12 @@ aside .cantidad-items{
   padding:0;
 }
 
+.carousel-inner{
+    height: 20vh;
+}
+.contenedor-carousel{
+padding-right: 1.7rem;
+}
 }
 
 @media screen and (max-width: 600px){
@@ -361,7 +372,7 @@ aside .cantidad-items{
         
     }
     .carousel-inner{
-        height: 30vh;
+        height: 25vh;
     }
 
     aside {
