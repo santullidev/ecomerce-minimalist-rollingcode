@@ -13,10 +13,10 @@ header nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    height: 7vh;
+    height: 10.5vh;
 }
 .logo img {
-    max-width: 70px;
+    max-width: 65px;
 }
 
 .search-form {
