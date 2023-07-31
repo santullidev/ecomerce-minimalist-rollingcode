@@ -1,8 +1,8 @@
 const productos= [
     //abrigos
     {
-       id:"abrigo-01",
-       titulo: "abrigo-01",
+       id:"abrigo-1",
+       titulo: "abrigo-1",
        imagen: "./img/abrigos/01.jpg",
        categoria:{
           nombre:"Abrigos",
@@ -11,8 +11,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"abrigo-02",
-       titulo: "abrigo-02",
+       id:"abrigo-2",
+       titulo: "abrigo-2",
        imagen: "./img/abrigos/02.jpg",
        categoria:{
           nombre:"Abrigos",
@@ -21,7 +21,7 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"abrigo-03",
+       id:"abrigo-3",
        titulo: "abrigo-03",
        imagen: "./img/abrigos/03.jpg",
        categoria:{
@@ -31,8 +31,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"abrigo-04",
-       titulo: "abrigo-04",
+       id:"abrigo-4",
+       titulo: "abrigo-4",
        imagen: "./img/abrigos/04.jpg",
        categoria:{
           nombre:"Abrigos",
@@ -41,8 +41,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"abrigo-05",
-       titulo: "abrigo-05",
+       id:"abrigo-5",
+       titulo: "abrigo-5",
        imagen: "./img/abrigos/05.jpg",
        categoria:{
           nombre:"Abrigos",
@@ -51,8 +51,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"abrigo-06",
-       titulo: "abrigo-06",
+       id:"abrigo-6",
+       titulo: "abrigo-6",
        imagen: "./img/abrigos/06.jpg",
        categoria:{
           nombre:"Abrigos",
@@ -62,8 +62,8 @@ const productos= [
     },
     //pantalones
     {
-       id:"pantalones-01",
-       titulo: "pantalones-01",
+       id:"pantalon-1",
+       titulo: "pantalon-1",
        imagen: "./img/pantalones/01.jpg",
        categoria:{
           nombre:"Pantalones",
@@ -72,8 +72,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"pantalones-02",
-       titulo: "pantalones-02",
+       id:"pantalon-2",
+       titulo: "pantalon-2",
        imagen: "./img/pantalones/02.jpg",
        categoria:{
           nombre:"Pantalones",
@@ -82,8 +82,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"pantalones-03",
-       titulo: "pantalones-03",
+       id:"pantalon-3",
+       titulo: "pantalon-3",
        imagen: "./img/pantalones/03.jpg",
        categoria:{
           nombre:"Pantalones",
@@ -92,8 +92,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"pantalones-04",
-       titulo: "pantalones-04",
+       id:"pantalones-4",
+       titulo: "pantalon-4",
        imagen: "./img/pantalones/04.jpg",
        categoria:{
           nombre:"Pantalones",
@@ -102,8 +102,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"pantalones-05",
-       titulo: "pantalones-05",
+       id:"pantalon-5",
+       titulo: "pantalon-5",
        imagen: "./img/pantalones/05.jpg",
        categoria:{
           nombre:"Pantalones",
@@ -112,9 +112,9 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"pantalones-06",
-       titulo: "pantalones-06",
-       imagen: "./img/pantalones/06.jpg",
+       id:"pantalon-6",
+       titulo: "pantalon-6",
+       imagen: "./img/pantalones/01.jpg",
        categoria:{
           nombre:"Pantalones",
           id:"pantalones"
@@ -123,8 +123,8 @@ const productos= [
     },
     //remeras
     {
-       id:"remeras-01",
-       titulo: "remeras-01",
+       id:"remera-1",
+       titulo: "remera-1",
        imagen: "./img/remeras/01.jpg",
        categoria:{
           nombre:"Remeras",
@@ -133,8 +133,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-02",
-       titulo: "remeras-02",
+       id:"remera-2",
+       titulo: "remera-2",
        imagen: "./img/remeras/02.jpg",
        categoria:{
           nombre:"Remeras",
@@ -143,8 +143,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-03",
-       titulo: "remeras-03",
+       id:"remera-3",
+       titulo: "remera-3",
        imagen: "./img/remeras/03.jpg",
        categoria:{
           nombre:"Remeras",
@@ -153,8 +153,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-04",
-       titulo: "remeras-04",
+       id:"remera-4",
+       titulo: "remera-4",
        imagen: "./img/remeras/04.jpg",
        categoria:{
           nombre:"Remeras",
@@ -163,8 +163,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-05",
-       titulo: "remeras-05",
+       id:"remera-5",
+       titulo: "remera-5",
        imagen: "./img/remeras/05.jpg",
        categoria:{
           nombre:"Remeras",
@@ -173,8 +173,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-06",
-       titulo: "remeras-06",
+       id:"remera-6",
+       titulo: "remera-6",
        imagen: "./img/remeras/06.jpg",
        categoria:{
           nombre:"Remeras",
@@ -183,8 +183,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-07",
-       titulo: "remeras-07",
+       id:"remera-7",
+       titulo: "remera-7",
        imagen: "./img/remeras/07.jpg",
        categoria:{
           nombre:"Remeras",
@@ -193,8 +193,8 @@ const productos= [
        precio: 1000,
     },
     {
-       id:"remeras-08",
-       titulo: "remeras-08",
+       id:"remera-8",
+       titulo: "remera-8",
        imagen: "./img/remeras/08.jpg",
        categoria:{
           nombre:"Remeras",
