@@ -100,8 +100,9 @@ function comprarCarrito(){
     productosEnCarrito.length = 0;
     localStorage.setItem("porductos-en-carrito", JSON.stringify(productosEnCarrito));
 
-    contenedorCarritoProductos.classList.add("disabled");
-    contenedorCarritoAcciones.classList.add("disabled");
+    // contenedorCarritoProductos.classList.add("disabled");
+    contenedorCarritoAcciones.classList.add("disabled"); 
     contenedorCarritoVacio.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
+    
 }
