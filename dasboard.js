@@ -2,8 +2,6 @@ const sideMenu = document.querySelector('aside');
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
 
-const darkMode = document.querySelector('.dark-mode');
-
 menuBtn.addEventListener('click', () => {
     sideMenu.style.display = 'block';
 });
@@ -11,6 +9,8 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     sideMenu.style.display = 'none';
 });
+
+
 // Función para obtener los productos del localStorage o crear un array vacío si no existen
 function getProductsFromLocalStorage() {
     const products = localStorage.getItem("products");

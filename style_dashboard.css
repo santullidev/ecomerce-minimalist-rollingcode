@@ -5,12 +5,9 @@
     --color-danger: #FF0060;
     --color-success: #1B9C85;
     --color-warning: #F7D060;
-    --color-white: #fff;
-    --color-info-dark: #7d8da1;
-    --color-dark: #363949;
-    --color-light: rgba(132, 139, 200, 0.18);
-    --color-dark-variant: #677483;
-    --color-background: #f6f6f9;
+    --color-white: #e6e3e3;
+    --color-light: rgba(25, 25, 27, 0.18);
+    --color-background: #9abbe3;
 
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
@@ -19,15 +16,6 @@
     --card-padding: 1.8rem;
     --padding-1: 1.2rem;
 
-    --box-shadow: 0 2rem 3rem var(--color-light);
-}
-
-.dark-mode-variables{
-    --color-background: #181a1e;
-    --color-white: #202528;
-    --color-dark: #edeffd;
-    --color-dark-variant: #a3bdcc;
-    --color-light: rgba(0, 0, 0, 0.4);
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
@@ -341,6 +329,7 @@ main .new-users .user-list .user img{
 
 main .recent-orders{
     margin-top: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 main .recent-orders h2{
@@ -459,137 +448,48 @@ main .recent-orders a{
     margin-bottom: 0.2rem;
 }
 
-.right-section .reminders{
-    margin-top: 2rem;
+
+
+
+.order-inventory{
+    width: 400px;
+    margin-bottom: 20px;
 }
 
-.right-section .reminders .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.8rem;
-}
-
-.right-section .reminders .header span{
-    padding: 10px;
-    box-shadow: var(--box-shadow);
+.order-inventory > div{
     background-color: var(--color-white);
-    border-radius: 50%;
-}
-
-.right-section .reminders .notification{
-    background-color: var(--color-white);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.7rem;
-    padding: 1.4rem var(--card-padding);
-    border-radius: var(--border-radius-2);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
     box-shadow: var(--box-shadow);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.right-section .reminders .notification:hover{
-    box-shadow: none;
+.order-inventory > div:hover{
+    box-shadow: none; 
 }
 
-.right-section .reminders .notification .content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    width: 100%;
+form{
+    margin: 10px;
+    padding: 10px;
+    text-align: start;
 }
 
-.right-section .reminders .notification .icon{
-    padding: 0.6rem;
-    color: var(--color-white);
-    background-color: var(--color-success);
-    border-radius: 20%;
-    display: flex;
+.form-group{
+    margin: 2px;
+    padding: 3px;
 }
 
-.right-section .reminders .notification.deactive .icon{
-    background-color: var(--color-danger);
+.oder-button{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--color-background);
+    border-radius: 9px;
 }
 
-.right-section .reminders .add-reminder{
-    background-color: var(--color-white);
-    border: 2px dashed var(--color-primary);
-    color: var(--color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
 
-.right-section .reminders .add-reminder:hover{
-    background-color: var(--color-primary);
-    color: white;
-}
 
-.right-section .reminders .add-reminder div{
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .container{
-        width: 95%;
-        grid-template-columns: 7rem auto 23rem;
-    }
-
-    aside .logo h2{
-        display: none;
-    }
-
-    aside .sidebar h3{
-        display: none;
-    }
-
-    aside .sidebar a{
-        width: 5.6rem;
-    }
-
-    aside .sidebar a:last-child{
-        position: relative;
-        margin-top: 1.8rem;
-    }
-
-    main .analyse{
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    main .new-users .user-list .user{
-        flex-basis: 40%;
-    }
-
-    main .recent-orders {
-        width: 94%;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 2rem 0 0 0.8rem;
-    }
-
-    main .recent-orders table{
-        width: 83vw;
-    }
-
-    main table thead tr th:last-child,
-    main table thead tr th:first-child{
-        display: none;
-    }
-
-    main table tbody tr td:last-child,
-    main table tbody tr td:first-child{
-        display: none;
-    }
-
-}
 
 @media screen and (max-width: 768px) {
     .container{
