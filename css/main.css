@@ -327,9 +327,18 @@ aside .cantidad-items{
 
 
 /**************************Media queries**********************************/
-@media screen and (max-width: 850px) {
+
+@media screen and (max-width: 1461px) {
+    .carousel-inner{
+        height: 25vh;
+    }
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
+    } 
+}
+@media screen and (max-width: 850px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr ;
     } 
     .main {
       margin: 0;
@@ -343,9 +352,11 @@ aside .cantidad-items{
 }
 
 .carousel-inner{
-    height: 25vh;
+    height: 20vh;
 }
-
+.contenedor-carousel{
+padding-right: 1.7rem;
+}
 }
 
 @media screen and (max-width: 600px){
@@ -361,7 +372,7 @@ aside .cantidad-items{
         
     }
     .carousel-inner{
-        height: 30vh;
+        height: 25vh;
     }
 
     aside {
