@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style_dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sobrenosotros.css">
+    <title>Administracion</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>Asmr<span class="danger">Prog</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Usuarios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Historial</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analyticas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Emails</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Historial ventas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reportes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Config.</h3>
+                </a>
+
+                <a href="index.html">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Salir</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Metricas</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Ventas</h3>
+                            <h1>$65,024</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Visitas al Sitio</h3>
+                            <h1>24,981</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Nuevos Usuarios</h3>
+                            <h1>53</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+13%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>Nuevos Usuarios</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="images/dashboard/profile-2.jpg">
+                        <h2>Mano en la cara</h2>
+                        <p>Hace 54 Min</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/dashboard/profile-3.jpg">
+                        <h2>Influencer de Insta</h2>
+                        <p>Hace 2 horas</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/dashboard/profile-4.jpg">
+                        <h2>Influencer de Insta</h2>
+                        <p>Hace 6 horas</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/dashboard/plus.png">
+                        <h2>Mas</h2>
+                        <p>Nuevos Usuarios</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Start of Inventory Section -->
+            <div class="recent-orders">
+                <h2>Inventario</h2>
+
+                <!-- Start of Order Form Section -->
+                <div class="order-inventory">  
+                    <div class="order-form">
+                        <h2>Agregar Producto</h2>
+                        <form id="product-form">
+                            <div class="form-group">
+                                <label for="product-title">Título:</label>
+                                <input type="text" id="product-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-category">Categoría:</label>
+                                <input type="text" id="product-category" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-category-id">ID:</label>
+                                <input type="text" id="product-category-id" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="product-price">Precio:</label>
+                                <input type="text" id="product-price" required>
+                            </div>
+                            <button type="submit" class="oder-button">Agregar Producto</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- End of Order Form Section -->
+                    
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Categoría</th>
+                            <th>ID</th>
+                            <th>Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                     <!-- Renderizar filas con información de productos -->
+                    </tbody>
+                </table>
+            </div>
+            </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <div class="profile">
+                    <div class="info">
+                        <p>Hola, <b>Fernando</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/dashboard/logo.png">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/dashboard/logo.png">
+                    <h2>Administrador</h2>
+                    <p>Nombre del cargo del admin.</p>
+                </div>
+            </div>  
+      </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+            <div class="logo-footer">
+                <img src="img/LOGO-SIN-LETRA.png" alt="Logo ICONIK">
+            </div>
+            </div>
+            <div class="footer-section">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="sobrenosotros.html">Acerca de ICONIK</a></li>
+                    <li><a href="404.html">Sucursales</a></li>
+                    <li><a href="404.html">Contacto</a></li>
+                    <li><a href="404.html">Terminos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="404.html">Medios de Pago</a></li>
+                    <li><a href="404.html">Preguntas Frecuentes</a></li>
+                    <li><a href="404.html">Como comprar</a></li>
+                    <li><a href="404.html">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li class="telefono"> Telefono: <a href="404.html">3804010</a></li>
+                    <li><a href="404.html">Soporte en línea</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <ul class="social-links">
+                    <li><a href="404.html"><i class='bx bxl-facebook-square'></i></a></li>
+                    <li><a href="404.html"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="404.html"><i class='bx bxl-instagram' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Todos los derechos reservados &copy; 2023 | Venta de Indumentaria</p>
+        </div>
+    </footer>
+    
+    <div class="right-section">
+        <div class="nav">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">
+                    menu
+                </span>
+            </button>
+            </div>
+
+
+    <script src="./JS/metadata.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
